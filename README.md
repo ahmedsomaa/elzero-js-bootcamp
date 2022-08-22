@@ -1,4 +1,4 @@
-# Solutions to Elzero Web School JavaScript Bootcamp Assignments
+# JavaScript Bootcamp Assignments Solution
 
 ## Weeks
 
