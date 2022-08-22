@@ -10,4 +10,6 @@ const markUp = `
     </div>
 `;
 
+// I used this as it's much simpler and cleaner
+// Check solution.md for both ways
 document.write(markUp.repeat(4));
