@@ -19,7 +19,7 @@ document.write(markUp);
 document.write(markUp);
 ```
 
-- Solution #2 (more elegant)
+-   Solution #2 (much cleaner)
 
 ```javascript
 const siteTitle = 'Elzero',
