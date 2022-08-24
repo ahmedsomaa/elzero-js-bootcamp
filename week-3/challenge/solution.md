@@ -147,6 +147,6 @@ console.log(); // 173
 ### Solution
 
 ```javascript
-console.log(-d * +e);
+console.log(-d * +e); // 2000
 console.log(-d + ++e * ++g + ++f); // 173
 ```
