@@ -14,7 +14,7 @@ console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
 
 ### Solution
 
-<!---
+```txt
     First console.log
     [++a] [+] [+b++] [+] [+c++] [-] [+a++]
     [++a]
@@ -40,9 +40,9 @@ console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
             the Post-increment will be executed after the current line (12)
     Final Output:
         [11] [+] [20] [+] [80] [-] [11] -> 100
---->
+```
 
-<!---
+```txt
     Second console.log
     current values:
         a = 12
@@ -77,9 +77,9 @@ console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
         - Explain: Unary Operator returns the value of the number
     Final Output:
         [13] [+] [-21] [+] [81] [-] [-13] [+] [14] -> 100
---->
+```
 
-<!---
+```txt
     Third console.log
     current values:
         a = 14
@@ -127,7 +127,7 @@ console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
         - Explain: Unray Operator returns the integer value of the boolean
     Final Output:
         [81] [+] [21] [+] [13] [*] [21] [-] [22] [*] [13] [+] [12] [-] [1] -> 100
---->
+```
 
 ## Challenge 2
 
