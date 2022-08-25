@@ -23,7 +23,7 @@ console.log(Number.MAX_SAFE_INTEGER.toString().length);
 let myVar = '100.56789 Views';
 
 console.log(parseInt(myVar)); // 100
-console.log(+parseFloat(myVar).toFixed(2)); // 10.57
+console.log(Number(parseFloat(myVar).toFixed(2))); // 100.57
 
 // Assignment 5
 let num = 10;
