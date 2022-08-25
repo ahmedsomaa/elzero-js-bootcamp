@@ -9,9 +9,9 @@ console.log(1e6 / 1e1);
 console.log(10 ** 5);
 console.log(1e5 % 1e10);
 console.log(Math.pow(10, 5));
-console.log();
-console.log();
-console.log();
+console.log(Math.round(100000.4));
+console.log(Math.ceil(99999.5));
+console.log(Math.floor(100000.4));
 
 // Assignment 2
 console.log(Number.MAX_SAFE_INTEGER);
@@ -28,7 +28,7 @@ console.log(+parseFloat(myVar).toFixed(2)); // 10.57
 // Assignment 5
 let num = 10;
 
-console.log(+Number.isInteger(10) + +true);
+console.log(Number.isInteger(10) + Number.isInteger(num));
 
 // Assignment 6
 let flt = 10.4;
