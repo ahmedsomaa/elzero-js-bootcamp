@@ -9,6 +9,8 @@ if (num < 10) {
     console.log(num);
 }
 
+//----------------------------------------------------------------------------------------------------------------------
+
 // Assignment 2
 let num1 = 9;
 let str = '9';
@@ -31,6 +33,8 @@ if (str !== str2) {
     console.log(`${str} Is The Same Type As ${str2} But Not The Same Value`);
 }
 
+//----------------------------------------------------------------------------------------------------------------------
+
 // Assignment 3
 num1 = 10;
 let num2 = 30;
@@ -42,6 +46,8 @@ if (num3 > num1 && typeof num3 !== typeof num1 && num3 == num2 && typeof num3 !=
     30 Is Larger Than 10 And Value Is The Same As 30 And Type string Not The Same Type As number
     ${num3} Value And Type Is Not The Same As ${num1} And Type Is Not The Same As ${num2}`);
 }
+
+//----------------------------------------------------------------------------------------------------------------------
 
 // Assignemnt 4
 // Edit What You Want Here

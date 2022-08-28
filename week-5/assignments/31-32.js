@@ -8,6 +8,8 @@ console.log(typeof 10 == typeof -'-40'); // true
 console.log(typeof '10' !== typeof 10); // true
 console.log(!20 === false); // true
 
+//----------------------------------------------------------------------------------------------------------------------
+
 // Assignment 2
 let num1 = 10;
 let num2 = 20;
@@ -18,6 +20,8 @@ console.log(num1 != num2); // true
 console.log(num1 !== num2); // true
 console.log(typeof num1 == typeof num2); // true
 console.log(typeof num1 === typeof num2); // true
+
+//----------------------------------------------------------------------------------------------------------------------
 
 // Assignment 3
 let a = 20;
