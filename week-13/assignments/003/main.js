@@ -12,7 +12,7 @@ function makeDiv(cls, title, dataValue, content) {
 
 function makeDOM() {
   // remove paragraph element
-  document.body.removeChild(pElement);
+  pElement.remove();
 
   // add start & end divs after and before divElement
   const endDivEl = makeDiv('end', 'End Element', 'End', 'End');
