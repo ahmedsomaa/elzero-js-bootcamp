@@ -19,7 +19,7 @@ assignemnts.
 - [x] Week 11
 - [x] Week 12
 - [x] Week 13
-- [ ] Week 14
+- [x] Week 14
 - [ ] Week 15
 - [ ] Week 16
 - [ ] Week 17
