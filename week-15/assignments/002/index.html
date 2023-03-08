@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+    <style>
+      form {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      label {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="John doe" />
+
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" />
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+
+      <label for="mobile">Mobile</label>
+      <select name="mobile" id="mobile">
+        <option value="samsung" selected>Samsung</option>
+        <option value="oneplus" selected>One Plue</option>
+        <option value="pixel" selected>Pixel</option>
+        <option value="nokia">Nokia</option>
+        <option value="oppo" selected>Oppo</option>
+      </select>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
