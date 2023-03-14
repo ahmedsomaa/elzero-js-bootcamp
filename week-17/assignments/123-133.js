@@ -39,3 +39,12 @@ let theNumber = 100020003000;
 console.log(+[...new Set([...theNumber.toString()].sort().slice())].join(''));
 // Needed Output
 // 123;
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 5
+let theName = 'Elzero';
+
+console.log(Array.from(theName));
+// Needed Output
+// ['E', 'l', 'z', 'e', 'r', 'o']
