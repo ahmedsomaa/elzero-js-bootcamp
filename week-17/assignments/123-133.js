@@ -48,3 +48,29 @@ let theName = 'Elzero';
 console.log(Array.from(theName));
 // Needed Output
 // ['E', 'l', 'z', 'e', 'r', 'o']
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 6
+function convert(arr) {
+  const digits = [...arr].filter((c) => typeof c === 'number');
+  const nondigits = [...arr].filter((c) => typeof c !== 'number');
+  const modifiedArr = [...digits, ...nondigits];
+  const len = digits.length;
+  return [...modifiedArr].copyWithin(0, len, len * 2);
+}
+
+let chars = ['A', 'B', 'C', 'D', 'E', 10, 15, 6];
+console.log(convert(chars));
+// Needed Output
+// ['A', 'B', 'C', 'A', 'B', 'C', 'D', 'E']
+
+chars = ['A', 'B', 'C', 20, 'D', 'E', 10, 15, 6];
+console.log(convert(chars));
+// Needed Output
+// ['A', 'B', 'C', 'D', 'A', 'B', 'C', 'D', 'E']
+
+chars = ['Z', 'Y', 'A', 'D', 'E', 10, 1];
+console.log(convert(chars));
+// Needed Output
+// ["Z", "Y", "Z", "Y", "A", "D", "E"]
