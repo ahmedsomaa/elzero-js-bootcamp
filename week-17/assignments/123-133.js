@@ -30,3 +30,12 @@ console.log(map.has('role'));
 //   Map(3) {'username' => 'Osama', 'role' => 'Admin', 'country' => 'Egypt'}
 //   3
 //   true
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 4
+let theNumber = 100020003000;
+
+console.log(+[...new Set([...theNumber.toString()].sort().slice())].join(''));
+// Needed Output
+// 123;
