@@ -74,3 +74,13 @@ chars = ['Z', 'Y', 'A', 'D', 'E', 10, 1];
 console.log(convert(chars));
 // Needed Output
 // ["Z", "Y", "Z", "Y", "A", "D", "E"]
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 7
+let numsOne = [1, 2, 3];
+let numsTwo = [4, 5, 6];
+
+console.log([...numsOne, ...numsTwo]);
+// Needed Output
+// [1, 2, 3, 4, 5, 6]
