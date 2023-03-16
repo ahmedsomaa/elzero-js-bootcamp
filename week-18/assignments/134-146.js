@@ -13,3 +13,11 @@ console.log(specialNames.match(specialNamesRe));
 
 // Output
 // ['Os10O', 'OsO', 'Os100O']
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 3
+let phone = '+(995)-123 (4567)';
+let phoneRe = /\+\(\d{3}\)-\d{3}\s\(\d{4}\)/gi;
+
+console.log(phoneRe.test(phone)); // true
