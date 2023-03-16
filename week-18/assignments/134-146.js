@@ -41,3 +41,18 @@ let re = /https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i;
 // https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24
 // https://regexper.com/
 // https://regexr.com/
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 5
+let date1 = '25/10/1982';
+let date2 = '25 - 10 - 1982';
+let date3 = '25 10 1982';
+let date4 = '25 10 82';
+
+re = /\d{2}\/*\s*-*\s*\d{2}\/*\s*-*\s*\d{2,4}/gi; // Write Pattern Here
+
+console.log(date1.match(re)); // "25/10/1982"
+console.log(date2.match(re)); // "25 - 10 - 1982"
+console.log(date3.match(re)); // "25 10 1982"
+console.log(date4.match(re)); // "25 10 82"
