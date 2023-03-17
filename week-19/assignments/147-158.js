@@ -48,7 +48,6 @@ let TabletOne = new Tablet('iPad', 100200300, 1500, 12.9);
 let TabletTwo = new Tablet('Nokia', 350450650, 800, 10.5);
 let TabletThree = new Tablet('LG', 250450650, 650);
 
-
 console.log(`${TabletOne.fullDetails()}`);
 // iPad Serial is 100200300 And Size Is 12.9
 
@@ -57,3 +56,15 @@ console.log(`${TabletTwo.fullDetails()}`);
 
 console.log(`${TabletThree.fullDetails()}`);
 // LG Serial is 250450650 And Size Is Unknown
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 4
+// Write Your Code Here
+String.prototype.addLove = function () {
+  return `I Love ${this} Web School`;
+};
+
+// Do Not Edit Below
+let myStr = 'Elzero';
+console.log(myStr.addLove()); // I Love Elzero Web School
