@@ -25,6 +25,6 @@ assignemnts.
 - [x] Week 17
 - [x] Week 18
 - [x] Week 19
-- [ ] Week 20
+- [x] Week 20
 - [ ] Week 21
 - [ ] Week 22
