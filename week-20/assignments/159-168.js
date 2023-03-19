@@ -19,6 +19,27 @@ console.log(`${Math.round(years)} Years`);
 //----------------------------------------------------------------------------------------------------------------------
 
 // Assignment 2
-let startOfTime = new Date("1980 1 1")
-startOfTime.setSeconds(1)
-console.log(new Date(startOfTime))
+let startOfTime = new Date('1980 1 1');
+startOfTime.setSeconds(1);
+console.log(new Date(startOfTime));
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 3
+const MONTHS = [
+  'January',
+  'Febraury',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December'
+];
+let lastDay = new Date(new Date().setDate(0));
+console.log(lastDay);
+console.log(`Previous Month Is ${MONTHS[lastDay.getMonth()]} And Last Day Is ${lastDay.getDate()}`);
