@@ -55,3 +55,16 @@ bday3.setDate(11);
 console.log(new Date(bday1));
 console.log(new Date(bday2));
 console.log(new Date(bday3));
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 5
+let p1 = performance.now();
+
+for (let i = 1; i <= 99999; i++) {
+  console.log(i);
+}
+
+let p2 = performance.now();
+
+console.log(`Loop Took ${p2 - p1} Milliseconds`);
