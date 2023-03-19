@@ -43,3 +43,15 @@ const MONTHS = [
 let lastDay = new Date(new Date().setDate(0));
 console.log(lastDay);
 console.log(`Previous Month Is ${MONTHS[lastDay.getMonth()]} And Last Day Is ${lastDay.getDate()}`);
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 4
+let bday1 = new Date('96 3 11');
+let bday2 = Date.parse('96 3 11');
+let bday3 = new Date();
+bday3.setFullYear(1996, 2);
+bday3.setDate(11);
+console.log(new Date(bday1));
+console.log(new Date(bday2));
+console.log(new Date(bday3));
