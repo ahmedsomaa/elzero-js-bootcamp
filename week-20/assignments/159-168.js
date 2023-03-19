@@ -122,3 +122,11 @@ console.log(generator.next()); // {value: "A", done: false}
 console.log(generator.next()); // {value: "B", done: false}
 console.log(generator.next()); // {value: "C", done: false}
 console.log(generator.next()); // {value: "D", done: false}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 8
+// main.js File
+import calc from './mod-one.js';
+import * as modOne from './mode-two.js';
+console.log(calc(modOne.numOne, modOne.numTwo, modOne.numThree)); // 60
