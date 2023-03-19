@@ -68,3 +68,29 @@ for (let i = 1; i <= 99999; i++) {
 let p2 = performance.now();
 
 console.log(`Loop Took ${p2 - p1} Milliseconds`);
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 6
+// Write Your Generator Function Here
+function* gen() {
+  let i = 0;
+  let num = 14;
+  while (true) {
+    yield num;
+    plus = 200 * i + 140;
+    num += plus;
+    i++;
+  }
+}
+let generator = gen();
+
+console.log(generator.next()); // {value: 14, done: false}
+console.log(generator.next()); // {value: 154, done: false}
+console.log(generator.next()); // {value: 494, done: false}
+console.log(generator.next()); // {value: 1034, done: false}
+console.log(generator.next()); // {value: 1774, done: false}
+console.log(generator.next()); // {value: 2714, done: false}
+console.log(generator.next()); // {value: 3854, done: false}
+console.log(generator.next()); // {value: 5194, done: false}
+console.log(generator.next()); // {value: 6734, done: false}
