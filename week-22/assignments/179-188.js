@@ -69,3 +69,20 @@ articlesPromise
     </div>`)
     );
   });
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// Assignment 2
+async function fetchArticles() {
+  const promise = await fetch('./articles.json');
+  const result = await promise.json();
+  result.length = 5;
+  result.forEach((article) =>
+    document.write(`<div>
+    <h3>${article.title}</h3>
+    <p>${article.description}</p>
+    </div>`)
+  );
+}
+
+fetchArticles();
