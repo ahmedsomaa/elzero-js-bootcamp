@@ -61,4 +61,11 @@ articlesPromise
     resolvedArticles.length = 5;
     return resolvedArticles;
   })
-  .then((resolved) => console.log(resolved));
+  .then((resolved) => {
+    resolved.forEach((article) =>
+      document.write(`<div>
+    <h3>${article.title}</h3>
+    <p>${article.description}</p>
+    </div>`)
+    );
+  });
