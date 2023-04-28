@@ -1,6 +1,6 @@
 # JavaScript Bootcamp Assignments Solution
 
-A repo for the solutions for
+A repo for the solutions of
 [Elzero's JavaScript Bootcamp](https://elzero.org/study/javascript-bootcamp-2021-study-plan/) challenges and
 assignemnts.
 
